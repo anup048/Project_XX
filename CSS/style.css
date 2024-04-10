@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con
+{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.courses
+{
+    display: flex;
+    gap: 10px;
+}
+.courses a
+{
+    text-decoration: none;
+    color: black;
+}
+.search
+{
+    border: 1px;
+    border-radius: 10px;
+}
+.inquiry
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.send button
+{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-transform: uppercase;
+    padding:10px;
+    gap: 5px;
+    color: blue;
+    background: lightblue;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+}
+nav 
+{
+    border: 1px solid gray;
+    padding: 10px;
+}
+nav a
+{
+    text-decoration: none;
+    color: gray;
+}
+.banner
+{
+    display: flex;
+
+}
+.left
+{
+    background: blue;
+    width: 30%;
+}
+.mid
+{
+    width: 50%;
+}
+.mid img
+{
+    width: 100%;
+}
+.right
+{
+    width: 20%;
+}
